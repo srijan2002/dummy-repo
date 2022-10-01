@@ -1,0 +1,7 @@
+cout<<"Hello World<<endl
+
+System.out.println("Hello World")
+
+print("Hello World")
+
+console.log("Hello Wolrd")
