@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orderId": {
+      "type": "string",
+      "unique": true
+    },
+    "cftoken": {
+      "type": "text"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "txStatus": {
+      "type": "enumeration",
+      "enum": [
+        "PENDING",
+        "CANCELLED",
+        "SUCCESS",
+        "FLAGGED"
+      ],
+      "default": "PENDING"
+    },
+    "plan": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::plan.plan"
+    },
+    "normal_coupon": {
+      "type": "integer",
+      "default": 0
+    },
+    "special_coupon": {
+      "type": "integer",
+      "default": 0
+    },
+    "pg_status": {
+      "type": "enumeration",
+      "enum": [
+        "RAZORPAY",
+        "CASHFREE"
+      ],
+      "required": true
+    }
+  }
+}
