@@ -46,7 +46,6 @@ class _SettingsState extends State<Settings> {
   @override
   void initState() {
     super.initState();
-
   
     googlePlace = GooglePlace(apiKey);
   }
