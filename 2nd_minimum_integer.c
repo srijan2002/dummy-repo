@@ -9,7 +9,7 @@ while (n<N-2)
     n++;
     printf("nos");
     scanf("%d",&c);
-    if (c<a)
+    if (c>a)
       {
        a=c;
       }
@@ -19,7 +19,7 @@ while (n<N-2)
       }
 }    
 printf("%d %d %d\n",a,b,c);
-if (a>b)
+if (a<b)
 {
     printf("%d\n",a);
 }
