@@ -18,14 +18,13 @@ struct bill
  float price;
  int qty;
 };
-set_item( struct menu menu[n] )
+set_item( struct menu)
 {
       int y=0;
       printf("enter the item_name: ");
-      scanf("%s",s);
-      for(int j=0 ; j<i ; j++)
+      for(int j=0 ; j<10 ; j++)
           {
-              if (strcmp(menu[j].item,s)==0)
+              if (strcmp(menu.price,10)==0)
               {
 		printf("item already exist.Enter a new item\n\n");
 		y=1;
