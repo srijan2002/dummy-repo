@@ -26,7 +26,7 @@ class _Rent_DetailState extends State<Rent_Detail> {
             child: Scaffold(
               body: CustomGestureDetector(
                 axis: CustomGestureDetector.AXIS_Y,
-                velocity: threshold,
+                velocity: abv,
                 onSwipeUp: () {
                   this.setState(() {
                     // showBottomMenu = true;
@@ -204,11 +204,11 @@ class _Rent_DetailState extends State<Rent_Detail> {
                                               ),
                                               Padding(
                                                 padding: EdgeInsets.symmetric(
-                                                    horizontal: 4.w),
+                                                    horizontal: 9.w),
                                                 child: Container(
                                                   padding: EdgeInsets.symmetric(
                                                       vertical: 1.h,
-                                                      horizontal: 5.w),
+                                                      horizontal: 10.w),
                                                   decoration: BoxDecoration(
                                                       borderRadius:
                                                           BorderRadius.circular(
@@ -233,7 +233,7 @@ class _Rent_DetailState extends State<Rent_Detail> {
                                                                     .w400),
                                                       ),
                                                       SizedBox(
-                                                        height: 1.5.h,
+                                                        height: 1.3.h,
                                                       ),
                                                       Text(
                                                         "₹ 11,9990/mo *",
