@@ -37,7 +37,7 @@ class _BuildingsState extends State<Buildings> {
                     collapseMode: CollapseMode.pin,
                     title: SABT(
                       child: Text("Rent",style: TextStyle(
-                          color: Colors.black,
+                          color: Colors.green,
                           fontFamily: 'Mons',
                           fontSize: 19.sp,
                           fontWeight: FontWeight.bold),),
@@ -75,7 +75,7 @@ class _BuildingsState extends State<Buildings> {
                           Padding(
                             padding:  EdgeInsets.fromLTRB(7.w, 3.h, 7.w, 3.h),
                             child: Text("Check out amazing deals for rent at extraordinary prices. Hurry Now !",
-                              style: TextStyle(fontSize: 14.sp,fontWeight: FontWeight.w400),
+                              style: TextStyle(fontSize: 14.sp,fontWeight: FontWeight.w800),
                             ),
                           )
                         ],
