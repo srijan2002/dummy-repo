@@ -4,12 +4,12 @@
  * @return {number[]}
  */
  var twoSum = function(nums, target) {
-    for (let index = 0; index < nums.length; index++) {
-        const diff = target - nums[index];
-        const diffIndex = nums.indexOf(diff);
+    for (let index1 = 0; index < nums.length; index++) {
+        const diff1 = target - nums[index1];
+        const diffIndex1 = nums.indexOf(diff1);
         // "diffIndex !== index" takes care of same index not being reused
-        if (diffIndex !== -1 && diffIndex !== index) {
-            return [index, diffIndex];
+        if (diffIndex1 !== -1 && diffIndex1 !== index1) {
+            return [index1, diffIndex1];
         }
     }
     
