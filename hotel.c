@@ -9,7 +9,7 @@ HOTEL BILL
 struct menu
 {
     int nos;
-    char item[20];
+    char item[21];
     float price;
 };
 struct bill
