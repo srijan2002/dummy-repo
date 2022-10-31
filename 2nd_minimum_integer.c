@@ -12,7 +12,7 @@ while (n<N-2)
     if (c>a)//balnachi
         //sdhfhjdsbhfjksdhkfsd 
       {
-       a=c;
+       a=c;//ghiol
       }
     else if(c<b)
       {
