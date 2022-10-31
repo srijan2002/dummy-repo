@@ -18,7 +18,7 @@ public:
         }
 
        
-        int average_value = target / k;
+        int average_value = target / k
 
      
         if (nums[start] > average_value || average_value > nums.back
@@ -29,9 +29,7 @@ public:
         if (k == 2)
         {
             return twoSum(nums, target, start);
-        }
-
-        for (int i = start; i < nums.size(); ++i)
+        } 
         {
             if (i == start || nums[i - 1] != nums[i])
             {
