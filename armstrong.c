@@ -15,7 +15,7 @@ int main()
 		
 		
 		//very useful comment
-		temp=num;
+		temp=num;//hhh
 		while(temp!=0)// counting total number of digits
 			{
 			temp=temp/10;
