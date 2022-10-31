@@ -16,21 +16,21 @@ public class GFG {
 		{
 			index1 = x;
 			index2 = y;
-		}
+		}//bg
 	}
 
 	// Function to find the all the
 	// unique quadruplets with the
 	// elements at different indices
 	public static void
-	GetQuadruplets(ArrayList<Integer> nums,
+	GetQuadruplets(ArrayList<Integer> nums,//hehe boi srijan
 				int target)
 	{
 
 		// Stores the sum mapped to
 		// a List Of Pair<i, j>
 		HashMap<Integer, ArrayList<Pair> > map
-			= new HashMap<>();
+			= new HashMap<>();//ghfd
 
 		// Generate all possible pairs
 		// for the HashMap
