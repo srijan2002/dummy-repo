@@ -21,7 +21,7 @@ public:
         int average_value = target / k;
 
      
-        if (nums[start] > average_value || average_value > nums.back())
+        if (nums[start] > average_value || average_value > nums.back
         {
             return res;
         }
