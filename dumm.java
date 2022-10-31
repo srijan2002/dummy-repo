@@ -29,7 +29,7 @@ public class GFG {
 
 		// Stores the sum mapped to
 		// a List Of Pair<i, j>
-		HashMap<Integer, ArrayList<Pair> > map
+		HashMap<Integer>
 			= new HashMap<>();//ghfd
 
 		// Generate all possible pairs
