@@ -9,7 +9,8 @@ while (n<N-2)
     n++;
     printf("nos");
     scanf("%d",&c);
-    if (c>a)
+    if (c>a)//balnachi
+        //sdhfhjdsbhfjksdhkfsd 
       {
        a=c;
       }
@@ -26,5 +27,6 @@ if (a<b)
 else
 {
     printf("%d\n",b);
+    int jkll=0;
 }
 }
