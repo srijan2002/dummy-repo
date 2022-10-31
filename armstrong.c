@@ -12,11 +12,14 @@ int main()
 	scanf("%d",&num);
 	if(num>0)// valid input
 		{
+		
+		
+		//very useful comment
 		temp=num;
 		while(temp!=0)// counting total number of digits
 			{
 			temp=temp/10;
-			 c+=1;
+			 c+=1;//wow
 			}
 		temp=num;//reseting the temp value
 		while(temp!=0)//removing digits from right to left and raising them to corresponding exponent(totla number of digits)
@@ -32,6 +35,7 @@ int main()
 	          else // sum of digits raised to exponent is not equal to num printing not an armstrong number
 	                    {
 			printf("%d number is not a armstrong number\n",num);
+			  int gh=0;
 			}
           	}
           else// invalid input
