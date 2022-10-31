@@ -18,7 +18,7 @@ scanf("%d",&i);
 
 for (n;n<=12;n++)
 {
-    printf("%d  X",n);
+    printf("%d  X",p);
     printf(" %d = %d\n",i,n*i);
 } 
 
